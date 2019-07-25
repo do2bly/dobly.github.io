@@ -1,0 +1,25 @@
+{
+  "name": "dobly.github.io",
+  "version": "1.0.0",
+  "description": "This is a jekyll template based on [Lanyon](https://github.com/poole/lanyon). See a live demo [here](http://codinfox.github.io).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://do2bly@github.com/do2bly/dobly.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/do2bly/dobly.github.io/issues"
+  },
+  "homepage": "https://github.com/do2bly/dobly.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-sass": "^2.1.0",
+    "browser-sync": "^1.3.7",
+    "gulp-autoprefixer": "1.0.0"
+  }
+}
