@@ -48,7 +48,7 @@ main {
 
   @media screen and (min-width: $bigScreenW) {
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1100px;
   }
   @media screen and (max-width: 1280px) {
     margin: 0 75px;
@@ -211,6 +211,19 @@ main {
   @media screen and (max-width: $mobileW) {
     padding: 0 !important;
     margin-top: 0;
+  }
+}
+.posts {
+  li {
+    margin-top: 40px;
+
+    @media screen and (min-width: $mobileW) {
+      margin-top: 80px;
+    }
+
+    &:first-child {
+      margin-top: 0 !important;
+    }
   }
 }
 .post-container {
